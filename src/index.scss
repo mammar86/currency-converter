@@ -1,0 +1,56 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-image: url(https://www.ofx.com/-/media/images_for_modules/modules/ml018%20-%20generic%20hero/forex%20news/03-11_istock_000064278419_xxxlarge_1600x600.ashx?hash=DD2561A043D5C433C5C50C90223EA3EB);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(241, 241, 236);
+  color: black;
+}
+h1 {
+  margin: 5rem 0;
+  font-size: 3rem;
+  font-style: oblique;
+  text-shadow: 5px 10px 8px #888888;
+}
+
+input {
+  font-size: x-large;
+  margin-left: 1rem;
+}
+
+main {
+  text-align: center;
+}
+section {
+  margin: 2rem;
+  font-family: 'Merriweather', serif;
+}
+figure {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+label {
+  font-size: x-large;
+}
+
+p {
+  font-size: x-large;
+}
+
+.currency-box {
+  width: 15rem;
+  padding: 3rem;
+  border: 3px solid rgb(58, 61, 59);
+  box-shadow: 5px 10px 8px #888888;
+}
