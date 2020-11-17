@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "currency-converter",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "react-scripts build",
+    "deploy": "netlify deploy --prod --dir=build",
+    "setup-deploy": "app-app --deploy && npm run deploy",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postdeploy": "echo 'Your site was deployed to https://currency-converter-moammar.netlify.app'"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "useTabs": false
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "json": "^10.0.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3"
+  },
+  "homepage": "https://currency-converter-moammar.netlify.app"
+}
